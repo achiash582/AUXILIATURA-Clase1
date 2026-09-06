@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Paola Andrea Miranda Cordero</title>
+  </head>
+  <body>
+
+    <!-- ============ ENCABEZADO ============ -->
+    <header>
+      <img src="imagen1-recurso.png" alt="Foto de perfil de Paola Andrea Miranda Cordero" width="180" />
+      <h1>Paola Andrea Miranda Cordero</h1>
+      <p>Estudiante de Tecnologías Emergentes - UPEA</p>
+
+      <!-- Los 3 tipos de enlace pedidos -->
+      <nav>
+        <a href="https://github.com/achiash582" target="_blank" rel="noopener">Mi GitHub</a> |
+        <a href="https://www.upea.edu.bo/" target="_blank" rel="noopener">Sitio de la UPEA</a> |
+        <a href="#contacto">Ir a Contacto</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- ============ HABILIDADES ============ -->
+    <section>
+      <h2>Sobre mí</h2>
+
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Danza</li>
+        <li>Excel</li>
+        <li>Creativa</li>
+        <li>Pensamiento crítico</li>
+        <li>Adaptabilidad</li>
+        <li>Compromiso</li>
+      </ul>
+
+      <h3>Metas</h3>
+      <ol>
+        <li>Terminar mi primera carrera</li>
+        <li>Terminar mi segunda carrera</li>
+        <li>Conseguir trabajo</li>
+        <li>Abrir un negocio</li>
+        <li>Ser independiente</li>
+      </ol>
+    </section>
+
+    <hr />
+
+    <!-- ============ PROYECTO ============ -->
+    <section>
+      <h2>Proyecto</h2>
+      <h3>Capacitación y seguimiento a los colaboradores del call center de la empresa JPX Ingeniería &amp; Consultoría</h3>
+      <img src="imagen2-recurso.png" alt="Imagen representativa del proyecto de capacitación en JPX Ingeniería y Consultoría" width="400" />
+      <p>
+        El proyecto busca mejorar la efectividad de los colaboradores del call center de
+        JPX Ingeniería &amp; Consultoría, fortaleciendo sus conocimientos, habilidades y
+        desempeño mediante un programa de capacitación y seguimiento.
+      </p>
+      <p>
+        La propuesta parte de identificar las principales causas que afectan la captación
+        y conversión de prospectos en clientes, considerando aspectos relacionados con el
+        personal, los métodos y procesos, las herramientas tecnológicas y la gestión o
+        supervisión.
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- ============ MULTIMEDIA ============ -->
+    <section>
+      <h2>Multimedia</h2>
+
+      <h3>Video</h3>
+      <!--
+        Reemplaza "presentacion.mp4" por el nombre de tu archivo de video
+        cuando lo agregues en la carpeta del proyecto (en Visual Studio Code).
+      -->
+      <video controls width="480">
+        <source src="videi-mp4.mp4" type="video/mp4" />
+        Tu navegador no soporta la reproducción de este video.
+      </video>
+
+      <h3>Audio</h3>
+      <!--
+        Reemplaza "audio.mp3" por el nombre de tu archivo de audio
+        cuando lo agregues en la carpeta del proyecto.
+      -->
+      <audio controls>
+        <source src="audio-mp3.mp3" type="audio/mpeg" />
+        Tu navegador no soporta la reproducción de este audio.
+      </audio>
+    </section>
+
+    <hr />
+
+    <!-- ============ MATERIAS ============ -->
+    <section>
+      <h2>Materias (6to semestre)</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Materia</th>
+            <th>Semestre</th>
+            <th>Turno</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tecnologías Emergentes I</td>
+            <td>Sexto</td>
+            <td>Noche</td>
+          </tr>
+          <tr>
+            <td>Administración de Base de Datos</td>
+            <td>Sexto</td>
+            <td>Noche</td>
+          </tr>
+          <tr>
+            <td>Análisis Numérico II</td>
+            <td>Sexto</td>
+            <td>Noche</td>
+          </tr>
+          <tr>
+            <td>Análisis y Diseño II</td>
+            <td>Sexto</td>
+            <td>Noche</td>
+          </tr>
+          <tr>
+            <td>Ingeniería de Control</td>
+            <td>Sexto</td>
+            <td>Noche</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr />
+
+    <!-- ============ CONTACTO / FORMULARIO ============ -->
+    <section>
+      <h2 id="contacto">Contacto</h2>
+
+      <form action="#" method="post">
+        <!-- 1. text -->
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" /><br /><br />
+
+        <!-- 2. email -->
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" /><br /><br />
+
+        <!-- 3. tel -->
+        <label for="telefono">Teléfono:</label><br />
+        <input type="tel" id="telefono" name="telefono" placeholder="Ej: 71234567" /><br /><br />
+
+        <!-- 4. date -->
+        <label for="fecha">Fecha:</label><br />
+        <input type="date" id="fecha" name="fecha" /><br /><br />
+
+        <!-- 5. radio -->
+        <p>Motivo de contacto:</p>
+        <input type="radio" id="motivo-trabajo" name="motivo" value="trabajo" />
+        <label for="motivo-trabajo">Oferta de trabajo</label><br />
+        <input type="radio" id="motivo-colaboracion" name="motivo" value="colaboracion" />
+        <label for="motivo-colaboracion">Colaboración</label><br />
+        <input type="radio" id="motivo-consulta" name="motivo" value="consulta" />
+        <label for="motivo-consulta">Consulta</label><br /><br />
+
+        <!-- 6. checkbox -->
+        <input type="checkbox" id="acepto" name="acepto" />
+        <label for="acepto">Acepto ser contactada/o por este medio</label><br /><br />
+
+        <!-- 7. select -->
+        <label for="asunto">Asunto:</label><br />
+        <select id="asunto" name="asunto">
+          <option value="">-- Selecciona una opción --</option>
+          <option value="proyecto">Sobre mi proyecto</option>
+          <option value="estudios">Sobre mis estudios</option>
+          <option value="otro">Otro</option>
+        </select><br /><br />
+
+        <!-- 8. textarea -->
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="5" cols="40" placeholder="Escribe tu mensaje aquí"></textarea><br /><br />
+
+        <!-- 9. button -->
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- ============ UBICACIÓN ============ -->
+    <section>
+      <h2>Ubicación</h2>
+
+      <!--
+        Cómo obtener tu propio "src" de Google Maps:
+        1. Entra a Google Maps (maps.google.com) y busca tu ubicación.
+        2. Haz clic en "Compartir" y luego en la pestaña "Insertar un mapa".
+        3. Copia el código <iframe ...> que te da Google.
+        4. Copia SOLO el valor que está dentro de src="..." y reemplázalo
+           en el iframe de abajo.
+        El de abajo es un ejemplo funcional (Universidad Pública de El Alto)
+        usando el truco "output=embed", que no necesita clave de API.
+      -->
+      <iframe
+        src="https://www.google.com/maps?q=Universidad+P%C3%BAblica+de+El+Alto&output=embed"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <hr />
+
+    <footer>
+      <p>&copy; 2026 Paola Andrea Miranda Cordero - Portafolio personal</p>
+    </footer>
+
+  </body>
+</html>
